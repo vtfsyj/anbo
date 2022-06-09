@@ -1,0 +1,126 @@
+.cl {
+  clear: both;
+}
+
+.bannerbox {
+  width: 100%;
+  height: 553px;
+  margin: 0 auto;
+
+}
+
+.bannerbox img {
+  width: 100%;
+  height: 553px;
+  display: block;
+  margin: 0 auto;
+}
+
+.content {
+  padding-top: 40px;
+  width: 1243px;
+  /* height: 1000px; */
+  margin: 0 auto;
+
+  overflow: hidden;
+}
+
+.content .tab {
+  float: left;
+}
+
+.content .tab ul {
+  width: 850px;
+}
+
+.tab_bottom li {
+  width: 817px;
+  background-color: rgb(243, 244, 244);
+  margin-top: 15px;
+}
+
+.tab_bottom a {
+  margin-left: 15px;
+  height: 61px;
+  display: inline-block;
+  color: #262b2e;
+  font: normal 600 18px / 61px "Open Sans", Helvetica, Arial, Verdana, sans-serif;
+  text-transform: none;
+}
+
+.tab_bottom a:hover {
+  text-decoration: none;
+  background: -webkit-gradient(linear, left top, right top, color-stop(32%, #0ca2e0), color-stop(100%, #27dde8));
+  background: -webkit-linear-gradient(left, #0ca2e0 32%, #27dde8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.tab .tab_bottom div {
+  width: 817px;
+  /* height: 239px; */
+  display: none;
+}
+
+.tab .tab_bottom div.current {
+  display: block;
+}
+
+.tab .tab_top {
+  margin: 50px 200px;
+  border-radius: 3px;
+}
+
+.tab .tab_top span {
+  display: inline-block;
+  width: 38px;
+  height: 38px;
+  background-color: rgb(243, 244, 244);
+  text-align: center;
+  line-height: 38px;
+}
+
+.tab .tab_top span:hover {
+  background-color: rgb(243, 244, 244);
+  color: #0ca2e0;
+}
+
+.tab .tab_top span.current {
+  color: white;
+  background: #0ca2e0;
+  background: -webkit-linear-gradient( 30deg, #0ca2e0 0%, #27dde8 100%);
+  background: linear-gradient( 30deg, #0ca2e0 0%, #27dde8 100%);
+}
+
+.content .right {
+  margin-top: 15px;
+  width: 263px;
+  height: 528px;
+  float: right;
+  padding-left: 40px;
+  border-left: 1px solid #e5e5e5;
+}
+
+.content .right .no1 {
+  height: 150px;
+  border-bottom: 1px solid #e5e5e5;
+ 
+}
+
+.content .right .no1 h3 {
+  height: 40px;
+  line-height: 40px;
+  color: #262b2e;
+  font: normal 600 15px / 25px "Open Sans", Helvetica, Arial, Verdana, sans-serif;
+  text-transform: none;
+  margin-bottom: 20px;
+}
+
+.content .right .no1 p {
+  color: #676b6d;
+  font-size: 14px;
+  line-height: 24px;
+}
+.content .right .no2 {
+ padding-top: 40px;
+}

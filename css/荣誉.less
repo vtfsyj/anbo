@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Microsoft Yahei", STXihei, "Source Sans Pro", sans-serif !important;
+    list-style: none;
+}
+
+.bigImg {
+    width: 100%;
+    height: 500px;
+    background-image: url(../images/2-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 500px;
+}
+
+// 主要内容
+.content {
+    width: 100%;
+    margin-top: 20px;
+
+    // 可视区
+    .content-v {
+        width: 1250px;
+        margin: 0 auto;
+        overflow: hidden;
+
+        // 选项卡
+        .tabs {
+            width: 1200px;
+            height: 107px;
+
+            .item {
+                float: left;
+                width: 300px;
+                height: 107px;
+                background-color: #d8d8d8;
+                color: #262b2e;
+
+                p {
+                    width: 100%;
+                    line-height: 70px;
+                    font-size: 26px;
+                    text-align: center;
+                    font-weight: 800;
+
+                    span {
+                        cursor: pointer;
+                    }
+                }
+            }
+
+            .item:nth-child(1) {
+                margin-right: 10px;
+                margin-left: -10px;
+            }
+
+            .on {
+                background-color: #e60020;
+                color: white;
+            }
+        }
+
+        // 简介
+        .synopsis {
+            margin-top: 40px;
+            // padding-left: 20px;
+            padding-right: 60px;
+
+            .synopsis-left,
+            .synopsis-right {
+                width: 46%;
+                // height: 200px;
+                float: left;
+                margin-left: 40px;
+
+                li {
+                    width: 100%;
+                    height: 35px;
+                    border-bottom: 1px solid #eaebeb;
+                    margin-top: 5px;
+
+                    div.icon {
+                        float: left;
+                        width: 15px;
+                        position: relative;
+                        margin-top: 8px;
+                        margin-left: 5px;
+                        height: 15px;
+                        background-color: #22d1e6;
+                        border-radius: 50%;
+
+                        img {
+                            position: absolute;
+                            left: 3px;
+                            top: 2.5px;
+                        }
+                    }
+
+                    span {
+                        display: inline-block;
+                        margin-top: 5px;
+                        margin-left: 5px;
+                        font-size: 15px;
+                        color: #95989a;
+                    }
+                }
+
+            }
+        }
+    }
+}
+.imgBig{
+    width: 100%;
+    height: 240px;
+    margin-top: 40px;
+}
+#imgs img {
+width: 320px;
+height: 240px;
+}

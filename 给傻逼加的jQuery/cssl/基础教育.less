@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Microsoft Yahei", STXihei, "Source Sans Pro", sans-serif !important;
+}
+
+
+//图片
+.swip {
+    width: 100%;
+    overflow: hidden;
+    max-height: 602px;
+    height: auto;
+
+    .swiper-container {
+        width: 100%;
+        height: auto;
+
+        .swiper-slide {
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+}
+
+
+
+// 主要内容
+.content {
+    width: 100%;
+    margin-top: 20px;
+
+    // 可视区
+    .content-v {
+        width: 1200px;
+        margin: 0 auto;
+        overflow: hidden;
+
+        // 选项卡
+        .tabs {
+            width: 1200px;
+            height: 107px;
+
+            .item {
+                float: left;
+                width: 400px;
+                height: 107px;
+                background-color: #d8d8d8;
+                color: #262b2e;
+
+                p {
+                    width: 100%;
+                    line-height: 70px;
+                    font-size: 26px;
+                    text-align: center;
+                    font-weight: 800;
+
+                    span {
+                        cursor: pointer;
+                    }
+                }
+            }
+
+            .item:nth-child(1) {
+                // margin-right: 10px;
+                margin-left: -10px;
+            }
+
+            .on {
+                background-color: #e60020;
+                color: white;
+            }
+        }
+    }
+}
+
+.bigimg{
+    margin: 0 auto;
+    width: 1660px;
+    height: 657px;
+}
+
+//内容
+.content-box{
+    width: 1200px;
+    // height: 600px;
+    margin: 0 auto;
+    margin-top: 40px;
+    .leftbox{
+        // border: 1px solid red;
+        width: 675px;
+        height: 375px;
+        float: left;
+        p{
+            color: #808080;
+            font-size: 15px;
+            width: 675px;
+            margin-bottom: 15px;
+        }
+    }
+    .bottombox{
+        width: 1170px;
+        p{
+            color: #808080;
+            font-size: 15px;
+            width: 1170px;
+            margin-bottom: 15px;
+            strong{
+                font-size: 700;
+                margin-bottom: 5px;
+                // display: block;
+            }
+        }
+    }
+    .bottombox2{
+        width: 1170px;
+        a{
+            display: block;
+            width: 190px;
+            height: 135px;
+            float: left;
+            margin-right: 5px;
+            position: relative;
+            background-position: 100% 100%;
+            .yy{
+                bottom: 0;
+                display: none;
+                background: rgba(36,36,36,0.5);
+               position: absolute; 
+               width: 190px;
+               height: 135px;
+            }
+            .xx{
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 190px;
+                height: 40px;
+                background-color: rgb(43, 42, 42, ) ;
+                opacity: 0.5;
+                color: white;
+                line-height: 40px;
+                text-align: center;
+            }
+        }
+    }
+    
+}
+

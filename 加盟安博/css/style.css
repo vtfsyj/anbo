@@ -1,0 +1,27 @@
+
+a{
+    display: inline-block;
+}
+b{
+    display: block;
+    padding: 10px;
+}
+button{
+    padding: 5px 10px;
+}
+img,
+.image{
+    width: 383px;
+    margin-left:4px;
+}
+.image{
+    display: inline-block;
+    height: 20vw;
+    max-height: 200px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.spotlight.image{
+    cursor: pointer;
+}

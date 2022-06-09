@@ -1,0 +1,183 @@
+.bananer {
+  height: 400px;
+  margin-top: 160px;
+  background-image: url(../images/anbozixun.jpg);
+}
+.cont {
+  position: relative;
+  width: 1250px;
+  height: auto;
+  margin: 50px auto;
+  overflow: hidden;
+}
+.cont .content {
+  float: left;
+  width: 835px;
+  margin-top: 20px;
+}
+.cont .content .content-font {
+  padding: 15px 25px 1px;
+  width: 792px;
+  height: 51px;
+  background-color: #f3f4f4;
+  margin-bottom: 25px;
+}
+.cont .content .paging {
+  width: 380px;
+  height: 38px ;
+  margin: 0 auto;
+  background-color: #f3f4f4;
+  border-radius: 5px;
+}
+.cont .content .paging .user {
+  display: inline-block;
+  width: 38px ;
+  height: 38px ;
+  text-align: center;
+  line-height: 38px;
+  background-color: #22d1e6;
+  border-radius: 1px;
+}
+.cont .content .paging span {
+  display: inline-block;
+  width: 38px ;
+  height: 38px ;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 8px;
+}
+.nav-top {
+  float: left;
+  width: 835px;
+  height: 40px;
+}
+.nav-top .nav-left {
+  overflow: hidden;
+  width: 320px;
+  height: 38px;
+  float: left;
+  background-color: #f3f4f4;
+  border-radius: 6px;
+}
+.nav-top .nav-left .aa {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  width: 65px;
+  height: 38px;
+  text-align: center;
+  line-height: 38px;
+  font-size: 12px;
+  background-color: #f3f4f4;
+}
+.nav-top .nav-left .cure {
+  text-decoration: none;
+  display: inline-block;
+  width: 110px;
+  height: 38px;
+  background-color: #22d1e6;
+  text-align: center;
+  font-size: 12px;
+  line-height: 38px;
+}
+.nav-rigth {
+  font-size: 12px;
+  float: right;
+  width: 127px ;
+  height: 38px ;
+  border-radius: 5px;
+  background-color: #f3f4f4;
+  text-align: center;
+  line-height: 38px;
+  position: relative;
+}
+.content-rigth {
+  float: right;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 370px;
+  height: 500px;
+  border-left: 3px solid #f3f4f4;
+}
+.content-rigth .txt1 {
+  color: #262b2e;
+  padding-left: 50px;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+.content-rigth .txt2 {
+  padding-left: 50px;
+  margin-bottom: 15px;
+  color: #676b6d;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+.content-rigth .widget {
+  margin-left: 50px;
+  border-top: 3px solid #f3f4f4;
+  width: 265px;
+  height: 480px;
+}
+.content-rigth .widget img {
+  width: 265px;
+  height: 269px;
+}
+.content-rigth .widget h3 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.switch-btn {
+  position: absolute;
+  left: 1px;
+  top: 2px;
+  cursor: pointer;
+  width: 25px;
+  height: 12px;
+  position: relative;
+  border: 1px solid #dfdfdf;
+  background-color: #fdfdfd;
+  box-shadow: #dfdfdf 0 0 0 0 inset;
+  border-radius: 15px;
+  background-clip: content-box;
+  display: inline-block;
+  -webkit-appearance: none;
+  user-select: none;
+  outline: none;
+}
+.switch-btn:before {
+  content: '';
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+}
+.switch-btn:checked {
+  border-color: #56b0d4;
+  box-shadow: #56b0d4 0 0 0 16px inset;
+  background-color: #56b0d4;
+}
+.switch-btn:checked:before {
+  left: 13px;
+}
+.switch-btn.switch-btn-animbg {
+  transition: background-color ease 0.4s;
+}
+.switch-btn.switch-btn-animbg:before {
+  transition: left 0.3s;
+}
+.switch-btn.switch-btn-animbg:checked {
+  box-shadow: #dfdfdf 0 0 0 0 inset;
+  background-color: #56b0d4;
+  transition: border-color 0.4s, background-color ease 0.4s;
+}
+.switch-btn.switch-btn-animbg:checked:before {
+  transition: left 0.3s;
+}
+.content-font h3:hover {
+  color: #0ca2e0;
+}

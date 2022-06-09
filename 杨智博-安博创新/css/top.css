@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  font-size: 14px;
+}
+.header {
+  width: 100%;
+  height: 36px;
+  background-color: #5d5d58;
+}
+.header .top {
+  width: 1170px;
+  height: 36px;
+  margin: auto;
+}
+.header .top ul li {
+  float: left;
+  margin-right: 16px;
+}
+.header .top ul li a {
+  color: #fff9f9;
+  line-height: 36px;
+}
+.header .top ul li a:hover {
+  color: #ccc;
+}
+.logo {
+  width: 1170px;
+  margin: 20px auto;
+}
+.logo a {
+  display: inline-block;
+  padding: 0 10px 0 22px;
+}
+.logo a img {
+  display: block;
+  width: 230px;
+  height: auto;
+}
+.logo .weixin {
+  float: right;
+}
+.logo .weixin span {
+  line-height: 52px;
+  font-size: 14px;
+  color: #4d4d4d;
+}
+.logo .weixin i.icon-weixin {
+  display: block;
+  cursor: pointer;
+  float: right;
+  margin-left: 18px;
+  margin-top: 13px;
+  width: 30px;
+  height: 30px;
+  background: url(../images/wechat_24px_1164443_easyicon.net_.png) no-repeat;
+}
+.header-menu {
+  width: 100%;
+  height: 56px;
+  background-color: #f7f7f7;
+  margin: auto;
+}
+.header-menu > ul {
+  width: 1170px;
+  margin: auto;
+}
+.header-menu > ul > li {
+  float: left;
+  border-left: 1px solid #eee;
+}
+.header-menu > ul > li > a {
+  display: block;
+  padding: 0 28px;
+  line-height: 56px;
+  color: #262b2e;
+  font-size: 16px;
+}
+.header-menu > ul > li > a .header-menu-icon-bor {
+  display: block;
+  float: right;
+  margin: 26px 0 0 8px;
+  width: 3px;
+  height: 3px;
+  border-left: 1.5px solid #2d2d2d;
+  border-bottom: 1.5px solid #2d2d2d;
+  transform: rotateZ(-45deg);
+}
+.header-menu > ul > li > a:hover {
+  color: #0ca2e0;
+}
+.header-menu > ul > li > a:hover .header-menu-icon-bor {
+  border-left: 1.5px solid #0ca2e0;
+  border-bottom: 1.5px solid #0ca2e0;
+}
+.header-menu > ul > li a.header-menu-a {
+  color: #0ca2e0;
+}
+.header-menu > ul > li:nth-last-child(1) {
+  border-right: 1px solid #eee;
+}
+.header-menu > ul .toggleli {
+  position: relative;
+}
+.header-menu > ul .toggleli .toggle-hide {
+  width: 210px;
+  position: absolute;
+  top: 54px;
+  left: 0;
+  background-color: #fff;
+  box-shadow: 0px 0px 2px #9d9d9d;
+  padding: 8px;
+  display: none;
+  z-index: 99999;
+}
+.header-menu > ul .toggleli .toggle-hide ul li {
+  width: 100%;
+  line-height: 32px;
+}
+.header-menu > ul .toggleli .toggle-hide ul li a {
+  display: block;
+  font-weight: 600;
+  color: #262b2e;
+  font-size: 13px;
+  padding-left: 5px;
+}
+.header-menu > ul .toggleli .toggle-hide ul li a:hover {
+  background-color: skyblue;
+  color: #0ca2e0;
+}
+.header-menu .icon-search {
+  float: right;
+  margin-top: 17px;
+}
+.header-menu .icon-search a {
+  display: block;
+  width: 18px;
+  height: 18px;
+  background: url(../images/icon-search.png) no-repeat;
+  background-size: 100% auto;
+}
+.ceiling {
+  width: 100%;
+  height: 56px;
+  background-color: #f7f7f7;
+  margin: auto;
+  position: fixed;
+  z-index: 999999;
+  opacity: 0;
+  top: 0;
+}
+.ceiling > ul {
+  width: 1170px;
+  margin: auto;
+}
+.ceiling > ul > div {
+  float: left;
+  margin-right: 50px;
+  margin-left: 20px;
+}
+.ceiling > ul > li {
+  float: left;
+  border-left: 1px solid #eee;
+}
+.ceiling > ul > li > a {
+  display: block;
+  padding: 0 28px;
+  line-height: 56px;
+  color: #262b2e;
+  font-size: 16px;
+}
+.ceiling > ul > li > a .header-menu-icon-bor {
+  display: block;
+  float: right;
+  margin: 26px 0 0 8px;
+  width: 3px;
+  height: 3px;
+  border-left: 1.5px solid #2d2d2d;
+  border-bottom: 1.5px solid #2d2d2d;
+  transform: rotateZ(-45deg);
+}
+.ceiling > ul > li > a:hover {
+  color: #0ca2e0;
+}
+.ceiling > ul > li > a:hover .header-menu-icon-bor {
+  border-left: 1.5px solid #0ca2e0;
+  border-bottom: 1.5px solid #0ca2e0;
+}
+.ceiling > ul > li a.header-menu-a {
+  color: #0ca2e0;
+}
+.ceiling > ul > li:nth-last-child(1) {
+  border-right: 1px solid #eee;
+  margin-left: 50px;
+}
+.ceiling > ul .toggleli {
+  position: relative;
+}
+.ceiling > ul .toggleli .toggle-hide {
+  width: 210px;
+  position: absolute;
+  top: 54px;
+  left: 0;
+  background-color: #fff;
+  box-shadow: 0px 0px 2px #9d9d9d;
+  padding: 8px;
+  display: none;
+  z-index: 99999;
+}
+.ceiling > ul .toggleli .toggle-hide ul li {
+  width: 100%;
+  line-height: 32px;
+}
+.ceiling > ul .toggleli .toggle-hide ul li a {
+  display: block;
+  font-weight: 600;
+  color: #262b2e;
+  font-size: 13px;
+  padding-left: 5px;
+}
+.ceiling > ul .toggleli .toggle-hide ul li a:hover {
+  background-color: skyblue;
+  color: #0ca2e0;
+}
+.ceiling .icon-search {
+  float: left;
+  margin-top: 17px;
+}
+.ceiling .icon-search a {
+  display: block;
+  width: 18px;
+  height: 18px;
+  background: url(../images/icon-search.png) no-repeat;
+  background-size: 100% auto;
+}

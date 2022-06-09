@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Microsoft Yahei", STXihei, "Source Sans Pro", sans-serif !important;
+  list-style: none;
+}
+.bigImg {
+  width: 100%;
+  height: 500px;
+  background-image: url(../images/2-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 500px;
+}
+.content {
+  width: 100%;
+  margin-top: 20px;
+}
+.content .content-v {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.content .content-v .tabs {
+  width: 1200px;
+  height: 107px;
+}
+.content .content-v .tabs .item {
+  float: left;
+  width: 400px;
+  height: 107px;
+  background-color: #d8d8d8;
+  color: #262b2e;
+}
+.content .content-v .tabs .item p {
+  width: 100%;
+  line-height: 70px;
+  font-size: 26px;
+  text-align: center;
+  font-weight: 800;
+}
+.content .content-v .tabs .item p span {
+  cursor: pointer;
+}
+.content .content-v .tabs .item:nth-child(1) {
+  margin-right: 10px;
+  margin-left: -10px;
+}
+.content .content-v .tabs .on {
+  background-color: #e60020;
+  color: white;
+}
+.content .content-b {
+  width: 1170px;
+  margin: 0 auto;
+  height: 90px;
+  border: 1px solid rgba(103, 107, 109, 0.15);
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.content .content-b .content-b-p {
+  display: block;
+  padding: 20px;
+  font-weight: bold;
+}
+.content .content-c {
+  width: 1170px;
+  margin: 0 auto;
+}
+.content .content-c .content-c-box {
+  width: 100%;
+  height: 300px;
+  border-bottom: 1px solid #d8d8d8;
+  margin: 40px 0 40px 0;
+  padding-bottom: 50px;
+}
+.content .content-c .content-c-box .content-c-box01 {
+  width: 30%;
+  float: left;
+}
+.content .content-c .content-c-box .content-c-box01 img {
+  width: 350px;
+  height: 260px;
+}
+.content .content-c .content-c-box .content-c-box02 {
+  float: left;
+  width: 68%;
+  margin-left: 20px;
+  margin-top: 70px;
+  box-sizing: border-box;
+}
+.content .content-c .content-c-box .content-c-box02 span {
+  font-size: 15px;
+  display: block;
+  font-weight: 700;
+  color: #676b6d;
+  padding: 10px 0 10px 0 ;
+}
+.content .content-c .content-c-box .content-c-box02 p {
+  font-size: 15px;
+  color: #676b6d;
+}
+.imgBig {
+  width: 100%;
+  height: 240px;
+  margin-top: 40px;
+}
+#imgs img {
+  width: 320px;
+  height: 240px;
+}

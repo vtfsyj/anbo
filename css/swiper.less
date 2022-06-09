@@ -1,0 +1,117 @@
+.swiper{
+    width: 100%;
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    position: relative;
+    .swiper-box{
+        width: 100%;
+        height: 550px;
+        overflow: hidden;
+        position: relative;
+        .swiper-item{
+            width: 100%;
+            height: 550px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 9;
+            display: none;
+            a{
+                display: block;
+                img{
+                    width: 100%;
+                    height: 550px;
+                }
+            }
+        }
+        .swiper-item3{
+            .swiper-in3{
+                width: 120px;
+                height: 420px;
+                position: absolute;
+                top: 60px;
+                left: -300px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+        .swiper-item4{
+            .swiper-in4{
+                width: 400px;
+                height: 120px;
+                position: absolute;
+                top: 350px;
+                right: 30%;
+                display: none;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+        .swiper-item5{
+            .swiper-in5{
+                width: 120px;
+                height: 420px;
+                position: absolute;
+                top: 60px;
+                right: -300px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+        .swiper-on{
+            display: block;
+        }
+    }
+    .swiper-tab{
+        position: absolute;
+        top: 500px;
+        left: calc(50% - 60px);
+        z-index: 99;
+        width: 150px;
+        height: 30px;
+        display: none;
+        ul li{
+            width: 10px;
+            height: 10px;
+            float: left;
+            margin: 0 5px;
+            border-radius: 50%;
+            border: 3px solid #fff;
+            cursor: pointer;
+        }
+        .swiper-current{
+            opacity: 1;
+            background-color: #fff;
+        }
+    }
+    .swiper-btn{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background: rgba(0,0,0,0.6) url(../images/icon-jiantou.png) no-repeat center center;
+        background-size: 60% auto;
+        cursor: pointer;
+        position: absolute;
+        top: calc(50% - 20px);
+        z-index: 99;
+        &:hover{
+            background-color: #000;
+        }
+    }
+    .swiper-btn-l{
+        left: 2%;
+        transform: rotateZ(90deg);
+    }
+    .swiper-btn-r{
+        right: 2%;
+        transform: rotateZ(-90deg);
+    }
+}

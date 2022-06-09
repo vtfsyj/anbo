@@ -1,0 +1,68 @@
+body{
+    .drop-down{
+        width: 100%;
+        height:57px;
+        background: rgb(231, 230, 230);
+        margin: 100px auto;
+        .dropbox{
+            width: 1200px;
+            margin: 0 auto;
+            // overflow: hidden;
+            .ul1{
+                list-style: none;
+                margin-left: 10px;
+                .li1{
+                    float: left;
+			        		        
+			        background-color: rgb(231, 230, 230);
+			        position: relative;
+			        border-left: 1px solid rgb(202, 202, 202);
+			        border-right: 1px solid rgb(202, 202, 202);
+			        margin-left: -1px;
+                    >a{
+                        text-align: center;	
+                        display: block;
+                        font-size: 16px;
+                        margin: 10px 14px 10px 14px;
+                        padding: 8px 15px 8px 15px;
+                        color: #000;
+                        text-decoration: none;
+                        &:hover{
+                            color: #0ca2e0;
+                        }
+                        span{
+                            font-size: 12px;
+                            font-weight: 700;
+                        }
+                    }
+                }
+                .divul{
+                    width: 240px;
+                    position: absolute;
+                    top: 57px;
+                    left: 0;
+                    background: rgb(155, 152, 152);
+                    display: none;
+                    ul{
+                        list-style: none;
+                        padding: 10px 10px;
+                        box-shadow: 0 0 4px rgb(0 0 0 / 20%);
+                        box-sizing: border-box;
+                        .li2{
+                            line-height: 30px;
+                            >a{
+                               text-align: left;
+                               text-decoration: none; 
+                               font-size: 14px;
+                               color: #000;
+                            }
+                            &:hover{
+                                background: rgb(95, 190, 228);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

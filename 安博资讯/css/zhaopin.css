@@ -1,0 +1,94 @@
+.bannerbox {
+  width: 1243px;
+  margin: 0 auto;
+}
+.bannerbox img {
+  display: block;
+  margin: 0 auto;
+}
+.navbox {
+  width: 1243px;
+  margin: 0 auto;
+}
+.navbox ul {
+  overflow: hidden;
+}
+.navbox li {
+  float: left;
+}
+.navbox .no1 {
+  margin: 10px 5px 10px 10px;
+  width: 398px;
+  height: 107px;
+  background-color: #e60020;
+}
+.navbox .no1 .zhiwei {
+  margin: 20px 140px;
+  display: block;
+  color: white;
+  font: normal 600 24px / 32px "Open Sans", Helvetica, Arial, Verdana, sans-serif;
+}
+.navbox .no2 {
+  margin-top: 10px;
+  width: 398px;
+  height: 107px;
+  background-color: #d8d8d8;
+}
+.navbox .no2 .rencai {
+  margin: 20px 140px;
+  display: block;
+  color: #262b2e;
+  font: normal 600 24px / 32px "Open Sans", Helvetica, Arial, Verdana, sans-serif;
+}
+.main {
+  margin-bottom: 50px;
+  width: 1243px;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-top: 50px;
+}
+.main .left {
+  margin-left: 30px;
+  float: left;
+  width: 894px;
+}
+.main .left .no1 {
+  color: #ff0000;
+  font-weight: 700;
+}
+.main .left .no2 {
+  font: normal 15px / 25px "Open Sans", Helvetica, Arial, Verdana, sans-serif;
+  word-spacing: normal;
+  color: #676b6d;
+  margin-bottom: 10px;
+}
+.main .left .no2 a {
+  color: #0ca2e0;
+}
+.main .right {
+  float: right;
+}
+.main .right .contact {
+  width: 298px;
+  height: 150px;
+  float: right;
+  background-color: rgba(230, 0, 32, 0.42) !important;
+}
+.main .right .contact .wrap {
+  padding: 20px;
+}
+.main .right .contact p {
+  font: normal 15px / 25px "Open Sans", Helvetica, Arial, Verdana, sans-serif;
+  word-spacing: normal;
+  color: #676b6d;
+}
+.main .right .guanwei p {
+  font: normal 15px / 25px "Open Sans", Helvetica, Arial, Verdana, sans-serif;
+  word-spacing: normal;
+  color: #676b6d;
+  font-weight: 700;
+}
+.main .right .guanwei img {
+  margin-top: 10px;
+  margin-bottom: 50px;
+}

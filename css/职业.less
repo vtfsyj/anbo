@@ -1,0 +1,186 @@
+.ywcont{
+    width: 1200px;
+    margin: 0 auto;
+    .ywtab{
+        width: 100%;
+        margin: 20px auto;
+        
+        .titem{
+            width: 380px;
+            text-align: center;
+            background-color: #d8d8d8 ;
+            display: inline-block;
+            span{
+                a{
+                    display: block;
+                    color: #333;
+                    font-size: 23px;
+                    padding: 20px 50px 50px 50px;
+                    font-weight: 700;
+                }
+                .a3{
+                    color: #fff;
+                }
+            }
+        }
+        .e6{
+            background-color: #e60020 ;
+        }
+    }
+    .ywbigbox{
+        width: 100%; 
+        margin: 0 auto;
+        .ywcont-box{
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+        p{
+            color: rgb(128, 128, 128);
+            font-size: 15px;
+            margin-bottom: 20px;
+            span{
+                color: #808080;
+                font-weight: 700;
+                font-size: 16px;
+            }
+        }
+        .str-a{
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        .str-a:hover{
+            text-decoration: none;
+        }
+        }
+        .maskimg{
+        width: 98%;
+        margin: 0 auto;
+        .maskb1{
+            position: relative;
+            display: inline-block;
+            width: 16%;
+            height: 130px;
+            background: rgb(6, 203, 238);
+            // overflow: hidden;
+            img{
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+            }
+            span{
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                text-align: center;
+                background: rgba(0,0,0,0.4);
+                color: #FFF;
+                font-size: 16px;
+                padding: 10px 12px 10px 12px;
+                box-sizing: border-box;
+                width: 100%;
+            }
+            .toggmask{
+                width: 100%;
+                height: 130px;
+                position: absolute;
+                background: rgba(0,0,0,0.4);
+                bottom: 0;
+                left: 0;
+                display: none;
+            }
+        }
+        }   
+    }  
+    .ywbg{
+        display: block;
+    } 
+}
+
+.lb {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+
+    .swiper {
+        width: 100%;
+        height: 600px;
+        margin: 0 auto;
+
+        .swiper-slide {
+            width: 100%;
+            height: 100%;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+
+        // 分页器
+        .swiper-pagination {
+            right: 40px;
+            width: 100px;
+            top: 720px;
+            height: 200px;
+
+            .swiper-pagination-bullet {
+                width: 98px;
+                height: 98px;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        }
+
+        .shade {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            right: 40px;
+            z-index: 9999999;
+            top: 451px;
+            border-radius: 90%;
+            // border: 3px solid black;
+            // animation: load 1.1s infinite linear;
+            // animation-duration: 1s;
+            background-color: rgba(71, 11, 11, 0.541);
+
+            img {
+                position: absolute;
+                top: 33px;
+                left: 34px;
+            }
+        }
+
+        .circle {
+            position: absolute;
+            width: 105px;
+            height: 105px;
+            right: 38px;
+            z-index: 9;
+            top: 448px;
+            border-radius: 90%;
+            overflow: hidden;
+
+            // background-color:black;
+            .left {
+                width: 50%;
+                height: 0px;
+                float: left;
+                background-color: blue;
+                // transform:rotateX(180deg);
+                bottom: 0;
+                position: absolute;
+            }
+
+            .right {
+                width: 50%;
+                height: 0px;
+                float: right;
+                background-color: blue;
+            }
+        }
+    }
+}

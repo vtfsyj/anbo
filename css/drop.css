@@ -1,0 +1,64 @@
+body .drop-down {
+  width: 100%;
+  height: 57px;
+  background: #e7e6e6;
+  margin: 100px auto;
+}
+body .drop-down .dropbox {
+  width: 1200px;
+  margin: 0 auto;
+}
+body .drop-down .dropbox .ul1 {
+  list-style: none;
+  margin-left: 10px;
+}
+body .drop-down .dropbox .ul1 .li1 {
+  float: left;
+  background-color: #e7e6e6;
+  position: relative;
+  border-left: 1px solid #cacaca;
+  border-right: 1px solid #cacaca;
+  margin-left: -1px;
+}
+body .drop-down .dropbox .ul1 .li1 > a {
+  text-align: center;
+  display: block;
+  font-size: 16px;
+  margin: 10px 14px 10px 14px;
+  padding: 8px 15px 8px 15px;
+  color: #000;
+  text-decoration: none;
+}
+body .drop-down .dropbox .ul1 .li1 > a:hover {
+  color: #0ca2e0;
+}
+body .drop-down .dropbox .ul1 .li1 > a span {
+  font-size: 12px;
+  font-weight: 700;
+}
+body .drop-down .dropbox .ul1 .divul {
+  width: 240px;
+  position: absolute;
+  top: 57px;
+  left: 0;
+  background: #9b9898;
+  display: none;
+}
+body .drop-down .dropbox .ul1 .divul ul {
+  list-style: none;
+  padding: 10px 10px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+}
+body .drop-down .dropbox .ul1 .divul ul .li2 {
+  line-height: 30px;
+}
+body .drop-down .dropbox .ul1 .divul ul .li2 > a {
+  text-align: left;
+  text-decoration: none;
+  font-size: 14px;
+  color: #000;
+}
+body .drop-down .dropbox .ul1 .divul ul .li2:hover {
+  background: #5fbee4;
+}

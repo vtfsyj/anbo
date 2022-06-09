@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Microsoft Yahei", STXihei, "Source Sans Pro", sans-serif !important;
+}
+.swip {
+  width: 100%;
+  overflow: hidden;
+  max-height: 602px;
+  height: auto;
+}
+.swip .swiper-container {
+  width: 100%;
+  height: auto;
+}
+.swip .swiper-container .swiper-slide img {
+  width: 100%;
+  height: auto;
+}
+.content {
+  width: 100%;
+  margin-top: 20px;
+}
+.content .content-v {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.content .content-v .tabs {
+  width: 1200px;
+  height: 107px;
+}
+.content .content-v .tabs .item {
+  float: left;
+  width: 400px;
+  height: 107px;
+  background-color: #d8d8d8;
+  color: #262b2e;
+}
+.content .content-v .tabs .item p {
+  width: 100%;
+  line-height: 70px;
+  font-size: 26px;
+  text-align: center;
+  font-weight: 800;
+}
+.content .content-v .tabs .item p span {
+  cursor: pointer;
+}
+.content .content-v .tabs .item:nth-child(1) {
+  margin-right: 10px;
+  margin-left: -10px;
+}
+.content .content-v .tabs .on {
+  background-color: #e60020;
+  color: white;
+}
+.content-box {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.content-box .box1 {
+  width: 100%;
+  color: #676b6d;
+}
+.content-box .box1 span {
+  display: block;
+  margin-top: 15px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.content-box .box1 p {
+  display: block;
+  margin-top: 15px;
+  font-size: 15px;
+}
+.content-box .box2 {
+  width: 100%;
+  margin-top: 40px;
+  overflow: hidden;
+  padding: 30px 0 30px 0;
+  border-top: 1px solid #d8d8d8;
+}
+.content-box .box2 .box2-img {
+  width: 45%;
+  float: left;
+}
+.content-box .box2 .box2-img img {
+  width: 570px;
+  height: 320px;
+}
+.content-box .box2 .box2-box {
+  width: 50%;
+  float: left;
+  margin-left: 30px;
+}
+.content-box .box2 .box2-box p {
+  display: block;
+  color: #676b6d;
+  margin-top: 60px;
+}
+.content-box .box2 .box2-box a {
+  width: 78px;
+  display: block  ;
+  float: right;
+  margin-top: 20px;
+  color: #0ca2e0;
+  border-bottom: 1px solid #0ca2e0;
+}
+.content-box .box2 .box2-box a:hover {
+  border: none;
+}

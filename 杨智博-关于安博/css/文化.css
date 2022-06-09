@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Microsoft Yahei", STXihei, "Source Sans Pro", sans-serif !important;
+}
+.swip {
+  width: 100%;
+  overflow: hidden;
+  max-height: 602px;
+  height: auto;
+}
+.swip .swiper-container {
+  width: 100%;
+  height: auto;
+}
+.swip .swiper-container .swiper-slide img {
+  width: 100%;
+  height: auto;
+}
+.content {
+  width: 100%;
+  margin-top: 20px;
+}
+.content .content-v {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.content .content-v .tabs {
+  width: 1200px;
+  height: 107px;
+}
+.content .content-v .tabs .item {
+  float: left;
+  width: 300px;
+  height: 107px;
+  background-color: #d8d8d8;
+  color: #262b2e;
+}
+.content .content-v .tabs .item p {
+  width: 100%;
+  line-height: 70px;
+  font-size: 26px;
+  text-align: center;
+  font-weight: 800;
+}
+.content .content-v .tabs .item p span {
+  cursor: pointer;
+}
+.content .content-v .tabs .item:nth-child(1) {
+  margin-right: 10px;
+  margin-left: -10px;
+}
+.content .content-v .tabs .on {
+  background-color: #e60020;
+  color: white;
+}
+.content-box {
+  width: 1200px;
+  height: 600px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.content-box .box1 {
+  float: left;
+  width: 30%;
+  padding: 0 25px 0 25px;
+}
+.content-box .box2 {
+  width: 65%;
+  float: left;
+  height: 600px;
+  color: #676b6d;
+}
+.content-box .box2 span {
+  display: block;
+  margin-top: 15px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.content-box .box2 p {
+  display: block;
+  margin-top: 15px;
+  font-size: 15px;
+}
